@@ -1,0 +1,103 @@
+
+/* 1. Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Body Styling */
+body {
+    background-color: #F3F4F6;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* 3. Header Styling */
+header {
+    background-color: #172D46;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* 4. Main Section */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* 5. Headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #172D46;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #D5DDE5;
+    padding-bottom: 8px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #40566D;
+}
+
+/* 6. Individual Sections */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+}
+
+/* 7. Lists */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* 8. Paragraphs */
+p {
+    margin-bottom: 12px;
+}
+
+/* 9. Footer */
+footer {
+    background-color: #172D46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 10. Flexbox */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 11. Responsive Design */
+@media (max-width: 750px) {
+    main {
+        width: 95%;
+    }
+
+    header {
+        padding: 25px 15px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
